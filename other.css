@@ -1,0 +1,81 @@
+/*
+    Defines all remaining styles for the Red Ball Pizza web page.
+
+    Author: Samir
+    Date: Haqanyar
+    File: other.css
+ */
+
+body {
+  border: 2px solid black;
+}
+header img {
+  width: 100%;
+  height: auto;
+}
+main {
+  padding: 20px 10px;
+  border-left: #9a1417 solid 5px;
+  border-right: #9a1417 solid 5px;
+  background-color: rgba(230, 230, 230, 0.575);
+}
+#deals div:nth-child(odd) {
+  margin: 10px;
+  border: #9a1417 dashed 4px;
+  background-color: pink;
+}
+#deals div:nth-child(even) {
+  margin: 10px;
+  border: #9a1417 dashed 4px;
+  background-color: rgb(216, 207, 209);
+}
+#deals header {
+  width: 100%;
+  height: auto;
+}
+#deals p:last-of-type {
+  margin: 0 10px;
+}
+
+nav.horizontal {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+nav.vertical {
+  background-image: url("parlor.jpg");
+}
+.vertical ul {
+  margin-top: 20px;
+  padding: 10px;
+}
+.vertical li {
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #9a1417, transparent);
+}
+.vertical a {
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.834);
+}
+
+aside {
+  padding: 10px;
+  background-image: url("parlor.jpg");
+}
+aside ul {
+  margin-left: 10px;
+}
+aside li {
+  padding: 10px;
+  border: 3px solid #9a1417;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    to right,
+    rgb(230, 229, 229),
+    rgb(200, 164, 164),
+    #7f2a2c
+  );
+}
